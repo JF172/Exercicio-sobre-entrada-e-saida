@@ -1,0 +1,77 @@
+01-
+
+let v1 = Number(prompt("Digite o primeiro valor"));
+let v2 = Number(prompt("Digite o segundo valor"));
+let v3 = Number(prompt("Digite o terceiro valor"));
+let v4 = Number(prompt("Digite o quarto valor"));
+
+let mult = (v1 * v3);
+let soma = (v2 + v4);
+
+document.write("A multiplicação do primeiro com o terceiro é: "+mult);
+document.write("<br>")
+document.write("A soma do segundo com o quarto é: "+soma)
+
+02-
+
+let cot_dolar = Number(prompt("Digite o valor do Dólar"));
+let quant_real = Number(prompt("Digite quantos Reais você possui"));
+
+let valor_dolar (quant_real / cot_dolar);
+
+document.write("Quantidade de Dólares"+valor_dolar)
+
+
+03-
+
+let preco_comb =  Number(prompt("Digite o peço do combustivel"));
+let valor_abast = Number(prompt("Digite o valor do abastecimento"));
+
+let litros = (valor_abast / preco_comb);
+
+document.write("Quantidade de litros comprados: "+litros)
+
+4-
+
+let celsius = Number(prompt("Digite a temperatura"));
+
+let conversao = (9 * celsius + 160) / 5;
+
+console.log(`${celsius}° Célsius são ${conversao}° em Fahrenheit`)
+
+5-
+
+let raio = Number(prompt("Digite o raio"));
+
+ let area = (3.14 * raio * raio);
+
+ console.log(`A área do circulo é ${area}`)
+
+6-
+
+let valor = Number(prompt("Digite o valor do produto"));
+
+let desconto = (valor * 30) / 100;
+let valorPago = valor - desconto;
+
+console.log(`O valor do desconto é ${desconto}, e o valor a ser pago é ${valorPago}`)
+
+7-
+
+let anos = Number(prompt("Digite a sua idade expressa em anos"));
+let meses = Number(prompt("Digite a sua idade expressa em meses"));
+let dias = Number(prompt("Digite a sua idade expressa em dias"));
+
+ let idade_dias = (anos * 365 + meses * 30 + dias);
+
+ console.log(`O total da idade em dias é ${idade_dias}`)
+
+8-
+
+let valor = Number(prompt("Digite o valor do boleto"));
+let juros = Number(prompt("Digite o percentual de juros"));
+let dias = Number(prompt("Digite o número de dias em atraso"));
+
+let prestacao =valor + (valor * (juros / 100)) * dias;
+
+console.log(`O valor da prestação é ${prestacao}`)
